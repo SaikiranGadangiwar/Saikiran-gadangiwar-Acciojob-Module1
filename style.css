@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body {
+    padding-top: 4vw;
+    
+  }
+  @media (max-width: 979px) {
+    body {
+      padding-top: 0px;
+    }
+  }
+
+  .title{
+    font-size: 7vw;
+    font-weight: 700;
+    color: black;
+  }
+
+
+
+
+section{
+  height: 55vw;
+  padding-top: 4vw;
+}
+@media (max-width: 979px) {
+  section {
+    padding-top: 0px;
+  }
+}
+
+
+/* navbar */
+
+.navbar{
+  border-bottom: 2px solid white;
+  height: 5vw;
+}
+.navbar .nav-item{
+  margin:0 10px;
+}
+.navbar .right{
+  font-size: 20px;
+}
+
+
+/* home */
+.banner_wrapper .banner-title {
+  
+  font-weight: 600;
+  font-size: 12vw;
+  text-transform: capitalize;
+  line-height: 1.15;
+
+  
+}
+.banner_wrapper .arrow-icon{
+  margin: 3vw;
+  
+}
+
+.banner_wrapper .banner{
+  
+  animation: fading 3s;
+  
+  
+}
+
+@keyframes fading {
+0% {
+
+    opacity: 0;
+}
+
+100% {
+    opacity: 1;
+}
+}
+
+
+
+/* about */
+
+.about_wrapper{
+  padding:6.5vw 0 0; 
+}
+.about_wrapper .about-text{
+  /* font-size: 23px; */
+  font-size: 1.5vw;
+}
+.about_wrapper .about-img{
+  /* max-height: 500px; */
+  max-height: 40vw;
+}
+.about_wrapper .right{
+  padding-left: 4vw;
+}
+
+/* @include media-breakpoint-up(sm) {
+  .about_wrapper {
+    display: block;
+  }
+} */
+
+/* @media (min-width: 576px) and (max-width: 767px){
+  .about-img {
+display: block;
+  }
+} */
+
+
+
+
+
+/* our services */
+.scrollmenu {
+  
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin: 2.5vw;
+  margin-left: 0vw;
+}
+
+.scrollmenu .card {
+  display: inline-block;
+  height: 24vw;
+  width: 32vw;
+  color:black;
+  text-align: center;
+  padding: 1vw;
+  text-decoration: none;
+  word-wrap: break-word;
+  margin: 1.5vw;
+  border: 2px solid black;
+  
+}
+.scrollmenu .card .card-title{
+  text-align: start;
+  margin:1vw;
+  margin-top: 0vw;
+  font-size: 3vw;
+  
+}
+.scrollmenu .card .card-text{
+  margin:1.5vw;
+  font-size: 1.5vw;
+  text-align: start;
+}
+
+.scrollmenu .card:hover {
+  background-color: black;
+  color: white;
+  transition-delay: 0.3s;
+}
+
+/* footer */
+
+.footer-form .row{
+  padding: 2vw;
+}
+.footer-form input{
+  height: 4vw;
+}
+
+.form-control::placeholder {
+  color: white !important;
+ 
+}
+.footer-form textarea{
+  height: 4vw;
+}
+
+/* .footer-form .btn{
+  height: 2vw;
+  width: 6vw;
+} */
+/* input{
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+} */
